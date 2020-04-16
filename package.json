@@ -35,8 +35,8 @@
     "@vue/cli-plugin-unit-jest": "4.2.3",
     "@vue/cli-plugin-vuex": "4.3.1",
     "@vue/cli-service": "4.2.3",
-    "@vue/test-utils": "1.0.0-beta.31",
     "babel-loader": "8.1.0",
+    "@vue/test-utils": "1.0.0-beta.33",
     "cache-loader": "4.1.0",
     "coffee-loader": "0.9.0",
     "coffeescript": "2.5.1",
@@ -50,7 +50,7 @@
     "standard-version": "7.1.0",
     "vue-cli-plugin-coffee": "0.1.0",
     "vue-cli-plugin-vuetify": "2.0.5",
-    "vue-loader": "15.9.0",
+    "vue-loader": "15.9.1",
     "vue-template-compiler": "2.6.11",
     "vuetify-loader": "1.4.3",
     "webpack": "4.42.0"
