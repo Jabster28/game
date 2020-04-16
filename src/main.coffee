@@ -43,7 +43,7 @@ store = new (Vuex.Store)(
 Vue.config.productionTip = false
 Vue.use new VueSocketIO(
   debug: true
-  connection: 'https://lang-backend.now.sh/'
+  connection: 'https://lang-backend.now.sh:8080'
   vuex:
     store: store
     actionPrefix: 'SOCKET_'
