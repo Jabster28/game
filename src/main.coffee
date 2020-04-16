@@ -28,8 +28,8 @@ store = new (Vuex.Store)(
       # s.listOfAttempts.push(p)
       p.correct ? s.isRight = true : s.isWrong = true
       x.isRight = true for x in s.question.answers when x.id is p.aID
-      x.isWrong = true for x in s.question.answers when x.id is p.gID 
-        
+      x.isWrong = true for x in s.question.answers when x.id is p.gID
+
       console.log s
       console.log p
       return
@@ -43,7 +43,7 @@ store = new (Vuex.Store)(
 Vue.config.productionTip = false
 Vue.use new VueSocketIO(
   debug: true
-  connection: 'https://gimkit-backend.now.sh/'
+  connection: 'https://backend-qqotousfo.now.sh/'
   vuex:
     store: store
     actionPrefix: 'SOCKET_'
