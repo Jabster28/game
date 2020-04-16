@@ -14,7 +14,7 @@
         <!-- Provides the application the proper gutter -->
         <v-container fluid>
           <!-- :disabled="!this.$store.state.button"  -->
-          <!--           
+          <!--
     <p v-if="qTime">{{ this.$store.state.question.q }}</p>
     <div v-if="qTime">
       <div :key="question.id" v-for="question in this.$store.state.question.answers">
@@ -95,6 +95,7 @@ export default {
 
 <style lang="scss">
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+
 body {
   overflow: hidden;
 }
