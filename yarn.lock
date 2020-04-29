@@ -9022,10 +9022,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-kbpgp@2.1.13:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/kbpgp/-/kbpgp-2.1.13.tgz#5aef69330ccf1c8896910ff9d50544f1b391fb62"
-  integrity sha512-57ryh9TrOhkSqMXzaXsSJgffn11Qkkc960Wj9UzdNln6wERxesIbGoDBYCtlikvYZ/G5SscRNnXEP4Vx8lqKvQ==
+kbpgp@2.1.15:
+  version "2.1.15"
+  resolved "https://registry.yarnpkg.com/kbpgp/-/kbpgp-2.1.15.tgz#f7b66ed6bad4eb51f355c3e164aea36a4ed124a5"
+  integrity sha512-iFdQT+m2Mi2DB14kEFydF2joNe9x3E2VZCGZUt7UXsiZnQx5TtSl4KofP7EPtjHvf7weCxNKlEPSYiiCNMZ2jA==
   dependencies:
     bn "^1.0.5"
     bzip-deflate "^1.0.0"
